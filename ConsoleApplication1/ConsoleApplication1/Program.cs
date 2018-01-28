@@ -13,10 +13,16 @@ namespace ConsoleApplication1
         {
             Console.WriteLine("Yes");
 
+            Category newCategory = new Category()
+            {
+                ID = 1,
+                Name = "Narzędzia"
+            };
+
             Product newProduct = new Product()
             {
                 ID = 1,
-                Category = "Narzędzia",
+                Category = newCategory,
                 Name = "Młotek"
             };
 

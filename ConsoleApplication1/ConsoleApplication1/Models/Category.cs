@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1.Models
 {
-    class Product
+    class Category
     {
         public int ID { get; set; }
 
         public string Name { get; set; }
 
-        public Category Category { get; set; }
     }
 }
