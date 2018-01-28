@@ -13,24 +13,10 @@ namespace ConsoleApplication1
         {
             Console.WriteLine("Yes");
 
-            Category newCategory = new Category()
-            {
-                ID = 1,
-                Name = "Narzędzia"
-            };
-
-            Product newProduct = new Product()
-            {
-                ID = 1,
-                Category = newCategory,
-                Name = "Młotek"
-            };
-
-            Client newClient = new Client()
-            {
-                Id = 1,
-                Email = "aa@aa.pl"
-            };
+            Client nowy;
+            nowy = new Client();
+            nowy.Email = "aa@aa.pl";
+            nowy.Id = 1;
         }
     }
 }
